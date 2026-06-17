@@ -114,7 +114,7 @@ export default function CartPage() {
             onClick={() => alert("Validation de la commande chez ESPANA DEAL...")}
             type="button"
           >
-            Commander
+            Commanderr
           </button>
         </div>
 
