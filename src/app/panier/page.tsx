@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function CartPage() {
   const { cart, updateQuantity, removeFromCart } = useCart();
 
-  // Calcul du prix total global
+  // Calcul du prix total global basé sur le prix actuel
   const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   // Si le panier est vide, on affiche un message propre avec un bouton de retour
@@ -34,7 +34,7 @@ export default function CartPage() {
           {cart.map((item) => (
             <div key={item.id} className="cart-item-card">
               
-              {/* Image simple confinée dans son cadre */}
+              {/* Image confinée dans son cadre */}
               <div className="cart-item-img-wrapper">
                 <img 
                   src={item.image} 
@@ -47,7 +47,9 @@ export default function CartPage() {
               <div className="cart-item-details">
                 <span className="cart-item-cat">{item.category}</span>
                 <h3 className="cart-item-name">{item.name}</h3>
-                <p className="cart-item-unit-price">Prix unitaire : {item.price} €</p>
+                <p className="cart-item-unit-price">
+                  Prix unitaire : {item.price.toLocaleString()} FCFA
+                </p>
               </div>
 
               {/* Sélecteur de quantité numérique */}
@@ -69,7 +71,9 @@ export default function CartPage() {
 
               {/* Sous-total et bouton de suppression */}
               <div className="cart-item-actions">
-                <p className="cart-item-subtotal">{(item.price * item.quantity).toLocaleString()} €</p>
+                <p className="cart-item-subtotal">
+                  {(item.price * item.quantity).toLocaleString()} FCFA
+                </p>
                 <button 
                   onClick={() => removeFromCart(item.id)} 
                   className="btn-remove-item" 
@@ -90,7 +94,7 @@ export default function CartPage() {
           
           <div className="summary-row">
             <span>Sous-total</span>
-            <span>{totalPrice.toLocaleString()} €</span>
+            <span>{totalPrice.toLocaleString()} FCFA</span>
           </div>
           
           <div className="summary-row">
@@ -102,12 +106,12 @@ export default function CartPage() {
           
           <div className="summary-row total-row">
             <span>Total</span>
-            <span>{totalPrice.toLocaleString()} €</span>
+            <span>{totalPrice.toLocaleString()} FCFA</span>
           </div>
           
           <button 
             className="btn-checkout" 
-            onClick={() => alert("Redirection vers la passerelle de paiement...")}
+            onClick={() => alert("Validation de la commande chez ESPANA DEAL...")}
             type="button"
           >
             Commander
