@@ -111,10 +111,10 @@ export default function CartPage() {
           
           <button 
             className="btn-checkout" 
-            onClick={() => alert("Validation de la commande chez ESPANA DEAL...")}
+            onClick={() => alert("Validation de la commande...")}
             type="button"
           >
-            Commanderr
+            Commander
           </button>
         </div>
 

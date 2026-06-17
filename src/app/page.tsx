@@ -60,7 +60,7 @@ export function HomePageContent() {
     
     return matchesSearch && matchesCategory;
   });
-
+ 
   const handleBuyNow = (product: typeof PRODUCTS_DATA[0]) => {
     addToCart(product);
     router.push("/panier");

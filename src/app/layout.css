@@ -4,7 +4,7 @@
 
 /* --- DECLARATION DES VARIABLES DE COULEURS & CONFIG --- */
 :root {
-  --color-primary: #004AAD;    /* Bleu principal Espanadeal */
+  --color-primary: #02BBF2;    /* Bleu principal Espanadeal */
   --color-white: #FFFFFF;      /* Blanc */
   --color-black: #1A1A1A;      /* Noir doux pour le texte */
   --color-gray-bg: #F0F2F5;    /* Gris clair pour fond recherche */
@@ -47,8 +47,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 15px 20px;
-  gap: 30px;
+  padding: 8px 15px;
+  gap: 20px;
   font-family: var(--font-main);
     font-family: 'Poppins', sans-serif;
 }
@@ -59,14 +59,14 @@ body {
   border: none;
   font-size: 22px;
   color: var(--color-black);
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .nav-logo img {
   /* object-fit: contain; */
   display: block;
   width: 100%;
-  height: 40px;
+  height: 60px;
 }
 
 /* --- RECHERCHE DESKTOP --- */
@@ -218,7 +218,7 @@ body {
 /* --- STYLE DU LIEN ACTIF DANS LA NAVBAR --- */
 .nav-links a.active-link,
 .sidebar-nav-links a.active-link {
-  color: #004AAD !important; /* Ta couleur bleue principale */
+  color: #000 !important; /* Ta couleur bleue principale */
   font-weight: 600; /* Légèrement plus épais pour se démarquer */
   position: relative;
 }
@@ -232,7 +232,7 @@ body {
     left: 0;
     width: 100%;
     height: 2px;
-    background-color: #004AAD;
+    background-color: #02BBF2;
     border-radius: 2px;
   }
 }

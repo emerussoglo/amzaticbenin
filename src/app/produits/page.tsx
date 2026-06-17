@@ -20,7 +20,7 @@ const PRODUCTS_DATA = [
   { id: 9, name: "Samsung Galaxy S24 Ultra", price: 790000, oldPrice: 880000, category: "Tablettes & Téléphones", image: "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?w=500&auto=format&fit=crop&q=60" },
 
   // Casques & Audio
-  { id: 10, name: "Casque Bluetooth Sony WH-1000XM5", price: 210000, oldPrice: 245000, category: "Casques & Audio", image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=500&auto=format&fit=crop&q=60" },
+  { id: 10, name: "ACER NITRO GAMING HEADSET", price: 210000, oldPrice: 245000, category: "Casques & Audio", image: "/img/ACERNITROGAMINGHEADSET.webp" },
   { id: 11, name: "Casque Gaming Razer BlackShark V2", price: 65000, oldPrice: 80000, category: "Casques & Audio", image: "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?w=500&auto=format&fit=crop&q=60" },
   { id: 12, name: "Écouteurs AirPods Pro 2", price: 160000, oldPrice: 190000, category: "Casques & Audio", image: "https://images.unsplash.com/photo-1588449668338-d151688d3482?w=500&auto=format&fit=crop&q=60" },
 

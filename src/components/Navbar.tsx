@@ -39,7 +39,7 @@ export default function Navbar() {
         {/* Zone Logo */}
         <div className="nav-logo">
           <Link href="/">
-            <img src="/img/logo.png" alt="Logo" />
+            <img src="/img/img.jpg" alt="Logo" />
           </Link>
         </div>
 
@@ -70,7 +70,7 @@ export default function Navbar() {
               <i className="fas fa-search"></i>
             </button>
           </form>
-        </div>
+        </div> 
 
         {/* Actions Icones */}
         <div className="nav-actions">
@@ -105,6 +105,7 @@ export default function Navbar() {
                 Produit Vedette <i className="fas fa-fire icon-fire"></i>
               </Link>
             </li>
+            
             <li>
               <Link href="/contact" className={pathname === "/contact" ? "active-link" : ""}>
                 Contact
@@ -167,6 +168,7 @@ export default function Navbar() {
               <li><Link href="/" onClick={() => setIsMenuOpen(false)}>Accueil</Link></li>
               <li><Link href="/produits" onClick={() => setIsMenuOpen(false)}>Tous nos produits</Link></li>
               <li><Link href="/vedette" className="link-featured" onClick={() => setIsMenuOpen(false)}>Produit Vedette <i className="fas fa-fire icon-fire"></i></Link></li>
+              <li><Link href="/panier" className="link-featured" onClick={() => setIsMenuOpen(false)}>Panier </Link></li>
               <li><Link href="/contact" onClick={() => setIsMenuOpen(false)}>Contact</Link></li>
             </ul>
             
@@ -174,7 +176,7 @@ export default function Navbar() {
 
             <div className="sidebar-section-title">
               <span>Filtrer par catégorie</span>
-              <Link href="/" onClick={() => setIsMenuOpen(false)} className="see-all-link">Tout voir</Link>
+              <Link href="/produits" onClick={() => setIsMenuOpen(false)} className="see-all-link">Tout voir</Link>
             </div>
 
             {/* Liste des nouvelles catégories avec icônes adaptées */}

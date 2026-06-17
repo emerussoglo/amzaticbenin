@@ -10,7 +10,7 @@ export default function Footer() {
         {/* Colonne 1 : Brand / Slogan */}
         <div className="footer-column brand-col">
           <div className="footer-logo">
-            <img src="/img/logo.png" alt="AMZATIC BENIN" />
+            <img src="/img/img.jpg" alt="AMZATIC BENIN" />
           </div>
           <p className="brand-description">
             Votre partenaire informatique de confiance au Bénin. Investissement garanti et SAV assuré.

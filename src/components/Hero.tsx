@@ -9,16 +9,16 @@ const SLIDES_DATA = [
     title: "Ordinateurs de Performance : PC Portables, Fixes & Moniteurs",
     subtitle: "Productivité & Puissance",
     description: "Équipez votre bureau ou votre setup de gaming avec le meilleur de l'informatique. Des PC configurés pour durer, avec SERVICE APRÈS-VENTE ASSURÉ.",
-    image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=1000&auto=format&fit=crop&q=80", // Image setup PC Bureau
+    image: "/img/img1.jpeg", // Image setup PC Bureau
     btnText: "Voir les Ordinateurs",
     link: "/?cat=ordinateurs"
   },
-  {
+  { 
     id: 2,
     title: "Tablettes & Téléphones Pro : Restez connecté partout",
     subtitle: "Mobilité & Innovation",
     description: "Boostez votre quotidien professionnel et personnel avec nos iPads, tablettes Android et smartphones de dernière génération.",
-    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=1000&auto=format&fit=crop&q=80", // Image Tablette / iPad
+    image: "/img/img2.jpeg", // Image Tablette / iPad
     btnText: "Découvrir la Sélection",
     link: "/?cat=tablettes"
   },

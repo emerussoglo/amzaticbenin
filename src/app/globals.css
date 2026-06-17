@@ -4,7 +4,7 @@
 
 /* --- DECLARATION DES VARIABLES DE COULEURS & CONFIG --- */
 :root {
-  --color-primary: #004AAD;    /* Bleu principal Espanadeal */
+  --color-primary: #02BBF2;    /* Bleu principal Espanadeal */
   --color-white: #FFFFFF;      /* Blanc */
   --color-black: #1A1A1A;      /* Noir doux pour le texte */
   --color-gray-bg: #F0F2F5;    /* Gris clair pour fond recherche */
@@ -160,7 +160,7 @@ body {
   /* Pousse le bouton vers l'extrémité droite dans un bloc Flexbox */
   margin: 10px;
   margin-left: auto; 
-  margin-top: -5px;
+  /* margin-top: -5px; */
   padding: 10px 14px;
   font-size: 13px;
   font-weight: 600;
@@ -173,7 +173,7 @@ body {
 
 .btn-buy-now {
   flex: 1;
-  background-color: #004AAD;
+  background-color: #02BBF2;
   color: #ffffff;
   border: none;
   padding: 8px;
@@ -450,7 +450,7 @@ body {
 
 .btn-checkout {
   width: 100%;
-  background-color: #004aad;
+  background-color: #02BBF2;
   color: #ffffff;
   border: none;
   padding: 14px;
@@ -492,7 +492,7 @@ body {
 
 .btn-back-home {
   display: inline-block;
-  background-color: #004aad;
+  background-color: #02BBF2;
   color: #ffffff;
   text-decoration: none;
   padding: 12px 24px;
@@ -639,7 +639,7 @@ body {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #004AAD;
+  color: #02BBF2;
   font-weight: 600;
   display: block;
   margin-bottom: 8px;
@@ -790,7 +790,7 @@ body {
 }
 
 .btn-send-message {
-  background-color: #004AAD;
+  background-color: #02BBF2;
   color: #ffffff;
   border: none;
   padding: 12px 24px;
@@ -834,7 +834,7 @@ body {
   height: 36px;
   border-radius: 4px;
   background-color: #f2f2f7;
-  color: #004AAD;
+  color: #02BBF2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -859,7 +859,7 @@ body {
 .info-link {
   font-size: 14px;
   font-weight: 500;
-  color: #004AAD;
+  color: #02BBF2;
   text-decoration: none;
   display: inline-block;
   margin-bottom: 2px;
@@ -1017,7 +1017,7 @@ body {
 }
 
 .dot-active {
-  background-color: #004AAD; /* Ton bleu de marque pour l'état actif */
+  background-color: #02BBF2; /* Ton bleu de marque pour l'état actif */
   transform: scale(1.2);
 }
 
